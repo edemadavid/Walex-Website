@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(214, 214, 214);
+}
+
+.bg-primary{
+    background-color: rgb(40, 107, 63) !important;
+}
+
+.btn-primary{
+    background-color: rgb(40, 107, 63) !important;
+}
+
+body header nav div a p{
+ margin:auto;
+ margin-left: 10px;
+ font-weight: bolder;
+}
+
+.search{
+    padding-left: 10vw;
+}
+
+.text-color{
+    color:rgb(10, 202, 10) !important ;
+    font-weight: bolder;
+}
+
+.jumbotron-detail-AboutUs{
+    background: url('../images/AboutUs.jpg') no-repeat fixed;
+}
+.jumbotron{
+    height:40vh;
+    background-size: cover;
+}
+
+.jumbotron-other{
+    background: url('../images/carousel2.jpg')
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption{
+    bottom: 3rem;
+    z-index: 10;
+}
+.carousel-caption hi{
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+
+.carousel-caption p{
+    font-size:1rem;
+    font-weight: bolder;
+}
+
+.carousel-item {
+    height: 35rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+ 
+.welcome-carousel-image1{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    background-image: url('../images/carousel1.jpg');
+}
+
+.welcome-carousel-image2{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    background-image: url('../images/carousel2.jpg');
+}
+
+.welcome-carousel-image3{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    background-image: url('../images/carousel3.jpg');
+}
+
+.welcome-carousel-image4{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    background-image: url('../images/carousel4.jpg');
+}
+
+.welcome-carousel-image5{
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.6);
+    background-image: url('../images/carousel5.jpg');
+}
+
+
+.decor{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none !important;
+    color: white;
+}
+
+
+/* ======== content of the Homepage ==========*/
+.row1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.row1 .col{
+    height: auto;
+    width: auto;
+   /** border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    **/
+}
+
+.cardflow{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.row1 .col .card i{
+    background-color: rgb(214, 214, 214);
+
+}
+
+.cardflow:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 200%;
+    background: rgb(87, 179, 87);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(10deg);
+    transform-origin: center top 0;
+    transition: 1s;
+}
+.cardflow:hover:before{
+    left:10%
+}
+.cardflow i{
+    width:100%;
+    height: auto;
+}
+
+.card-text {
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: white;
+    left: 0;
+    z-index:2;
+    transition: 1.1s;
+}
+
+.card-text p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card:hover .card-text{
+    top: 60px;
+}
+
+.fas,.far,.fa{
+    color: rgb(40, 107, 63) !important ;
+}
+.fa{
+    color: whitesmoke;
+}
+
+
+/*============ Row 2 =================*/
+.approach{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;    
+}
+
+.row2 .col .card{
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+
+
+
+/*====================== Services======================*/
+
+.try{
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    
+}
+
+
+.card p{
+    color: #171A1A;
+}
+.circle{
+     height: 70px;
+     width: 70px;
+     background-color:rgb(214, 214, 214) ;
+     color: black;
+     padding: 12px;
+     display: inline-block;
+     font-size: 30px;
+     border-radius: 30%;
+     margin-bottom: 20px;
+}
+
+.card:hover .circle{
+     background-color: rgba(87, 179, 87, 0.623);
+     color: blanchedalmond;
+     transition: 0.7s;
+}
+
+.correct{
+    list-style: none;
+}
+
+
+
+.cardServices{
+    height: 18rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.cardServices2{
+    height: 20rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.column{
+    background-color:rgb(214, 214, 214) ;
+    border: none;
+}
+
+.credits{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.center{
+    position: relative;
+    align-content: center;
+}
+.about{
+    height: auto;
+}
